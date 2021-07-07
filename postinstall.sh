@@ -11,11 +11,11 @@ sudo apt install curl
 
 # Install Software
 
-sudo apt install preload kubuntu-restricted-extras build-essential ktorrent bpytop youtube-dl ffmpeg
+sudo apt install preload kubuntu-restricted-extras build-essential ktorrent youtube-dl ffmpeg
 
 # Install VPN - expressvpn
 curl https://www.expressvpn.works/clients/linux/expressvpn_3.9.0.75-1_amd64.deb -o expressvpn_3.9.0.75-1_amd64.deb
-dpkg -i expressvpn_3.9.0.75-1_amd64.deb
+sudo dpkg -i expressvpn_3.9.0.75-1_amd64.deb
 
 # Remove Firefox
 sudo apt remove firefox
@@ -37,6 +37,9 @@ sudo apt-get install spotify-client
 sudo apt-get install snapd
 sudo snap install core
 
+# Install System Monitor
+sudo snap install bpytop
+
 # Install VLC
 sudo snap install vlc
 
@@ -48,7 +51,7 @@ sudo snap install bitwarden
 
 # Install Exodus
 curl https://downloads.exodus.com/releases/exodus-linux-x64-21.7.2.deb -o exodus-linux-x64-21.7.2.deb 
-dpkg -i exodus-linux-x64-21.7.2.deb
+sudo dpkg -i exodus-linux-x64-21.7.2.deb
 
 # Configure VPN
 sudo expressvpn activate
