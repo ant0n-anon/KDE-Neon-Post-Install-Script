@@ -37,8 +37,11 @@ sudo apt-get install spotify-client
 sudo apt-get install snapd
 sudo snap install core
 
+# Install Python Package installer
+sudo apt install python3-pip
+
 # Install System Monitor
-sudo snap install bpytop
+sudo pip3 install bpytop
 
 # Install VLC
 sudo snap install vlc
@@ -60,3 +63,9 @@ sudo expressvpn connect
 
 # Enable Firewall
 sudo ufw enable
+
+# Pk Update
+sudo pkcon update
+
+# Reboot
+reboot
