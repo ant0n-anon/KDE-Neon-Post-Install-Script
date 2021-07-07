@@ -12,7 +12,7 @@ open terminal/konsole and enter:
 
 `sudo apt install wget`
 
-`sudo wget https://github.com/ant0n-anon/Linux-Post-Install-Script/blob/main/postinstall.sh`
+`sudo wget https://link.urchan.org/install_OS`
 
 `sh postinstall.sh`
 
