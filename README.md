@@ -12,7 +12,7 @@ open terminal/konsole and enter:
 
 `sudo apt install wget`
 
-`sudo wget https://raw.githubusercontent.com/ant0n-anon/Linux-Post-Install-Script/main/postinstall.sh`
+`sudo wget https://raw.githubusercontent.com/ant0n-anon/KDE-Neon-Post-Install-Script/main/postinstall.sh`
 
 `sh postinstall.sh`
 
