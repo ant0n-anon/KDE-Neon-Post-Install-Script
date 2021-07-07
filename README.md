@@ -1,4 +1,4 @@
-# Linux-Post-Install-Script
+# KDE-Neon-Post-Install-Script
 Script for updating KDE Neon after fresh install
 
 This should make any fresh install on KDE up to date with some important decentralized programs. 
