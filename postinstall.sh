@@ -7,8 +7,6 @@
 sudo apt-get update && pkcon update
 sudo apt install curl
 
-# Add Repositories
-
 # Install Software
 
 sudo apt install preload kubuntu-restricted-extras build-essential ktorrent bpytop youtube-dl ffmpeg
@@ -47,17 +45,16 @@ sudo snap install bitwarden
 # Install Exodus
 curl https://downloads.exodus.com/releases/exodus-linux-x64-21.7.2.deb -o exodus-linux-x64-21.7.2.deb && dpkg -i exodus-linux-x64-21.7.2.deb
 
-# Configure VPN
-expressvpn activate
-expressvpn protocol lightway_udp
-expressvpn autoconnect enable
-
 # Change DNS to Cloudflare
 sudo echo 'nameserver 1.1.1.1' > /etc/resolv.conf
 sudo echo 'nameserver 1.0.0.1' > /etc/resolv.conf
 sudo echo 'nameserver 2606:4700:4700::1111' > /etc/resolv.conf
 sudo echo 'nameserver 2606:4700:4700::1001' > /etc/resolv.conf
 
+# Configure VPN
+expressvpn activate
+expressvpn protocol lightway_udp
+expressvpn autoconnect enable
 
 # Enable Firewall
 sudo ufw enable
