@@ -2,7 +2,7 @@
 
 # For running after fresh install of KDE Neon 5.22.2
 # Remove any software that you don't want after forking
-# This is literally my first project ever, so user beware
+# This is literally my first project ever, so please support!
 
 # General Update
 
