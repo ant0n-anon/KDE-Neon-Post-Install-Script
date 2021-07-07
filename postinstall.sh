@@ -4,7 +4,8 @@
 
 # General Update
 
-sudo apt-get update && pkcon update
+sudo apt-get update 
+pkcon update
 sudo apt install curl
 
 # Install Software
@@ -12,7 +13,8 @@ sudo apt install curl
 sudo apt install preload kubuntu-restricted-extras build-essential ktorrent bpytop youtube-dl ffmpeg
 
 # Install VPN - expressvpn
-curl https://www.expressvpn.works/clients/linux/expressvpn_3.9.0.75-1_amd64.deb -o expressvpn_3.9.0.75-1_amd64.deb && dpkg -i expressvpn_3.9.0.75-1_amd64.deb
+curl https://www.expressvpn.works/clients/linux/expressvpn_3.9.0.75-1_amd64.deb -o expressvpn_3.9.0.75-1_amd64.deb
+dpkg -i expressvpn_3.9.0.75-1_amd64.deb
 
 # Remove Firefox
 sudo apt remove firefox
@@ -27,7 +29,8 @@ sudo apt install brave-browser
 # Install Spotify
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update && sudo apt-get install spotify-client
+sudo apt-get update 
+sudo apt-get install spotify-client
 
 # Install Snap installer
 sudo apt-get install snapd
@@ -43,7 +46,8 @@ sudo snap install telegram-desktop
 sudo snap install bitwarden
 
 # Install Exodus
-curl https://downloads.exodus.com/releases/exodus-linux-x64-21.7.2.deb -o exodus-linux-x64-21.7.2.deb && dpkg -i exodus-linux-x64-21.7.2.deb
+curl https://downloads.exodus.com/releases/exodus-linux-x64-21.7.2.deb -o exodus-linux-x64-21.7.2.deb 
+dpkg -i exodus-linux-x64-21.7.2.deb
 
 # Change DNS to Cloudflare
 sudo echo 'nameserver 1.1.1.1' > /etc/resolv.conf
