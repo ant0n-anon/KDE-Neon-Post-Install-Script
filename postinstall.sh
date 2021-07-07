@@ -49,12 +49,6 @@ sudo snap install bitwarden
 curl https://downloads.exodus.com/releases/exodus-linux-x64-21.7.2.deb -o exodus-linux-x64-21.7.2.deb 
 dpkg -i exodus-linux-x64-21.7.2.deb
 
-# Change DNS to Cloudflare
-sudo echo 'nameserver 1.1.1.1' > /etc/resolv.conf
-sudo echo 'nameserver 1.0.0.1' > /etc/resolv.conf
-sudo echo 'nameserver 2606:4700:4700::1111' > /etc/resolv.conf
-sudo echo 'nameserver 2606:4700:4700::1001' > /etc/resolv.conf
-
 # Configure VPN
 expressvpn activate
 expressvpn protocol lightway_udp
