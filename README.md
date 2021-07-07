@@ -11,6 +11,7 @@ https://link.urchan.org/VPN_Referall
 open terminal/konsole and enter:
 sudo apt install wget
 sudo wget https://github.com/ant0n-anon/Linux-Post-Install-Script/blob/main/postinstall.sh
+
 sh postinstall.sh
 
 THAT'S IT!
