@@ -7,7 +7,6 @@
 # General Update
 
 sudo apt-get update 
-pkcon update
 sudo apt install curl
 
 # Install Software
