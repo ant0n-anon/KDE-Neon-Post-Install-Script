@@ -45,6 +45,7 @@ sudo snap install core
 sudo apt install python3-pip
 
 # Install System Monitor
+sudo apt install python3-pip
 sudo pip3 install bpytop
 
 # Install VLC
