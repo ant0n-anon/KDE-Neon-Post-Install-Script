@@ -65,6 +65,7 @@ sudo dpkg -i exodus-linux-x64-21.7.2.deb
 sudo expressvpn activate
 sudo expressvpn protocol lightway_udp
 sudo expressvpn connect
+sudo expressvpn autoconnect true
 
 # Enable Firewall
 sudo ufw enable
