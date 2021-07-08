@@ -33,6 +33,10 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 sudo apt-get update 
 sudo apt-get install spotify-client
 
+# Install Chrome
+sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 # Install Snap installer
 sudo apt-get install snapd
 sudo snap install core
