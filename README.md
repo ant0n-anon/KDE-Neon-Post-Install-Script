@@ -12,9 +12,7 @@ https://link.urchan.org/VPN_Referall
 
 open terminal/konsole and enter:
 
-`sudo apt install wget`
-
-`sudo wget https://raw.githubusercontent.com/ant0n-anon/KDE-Neon-Post-Install-Script/main/postinstall.sh`
+`wget https://raw.githubusercontent.com/ant0n-anon/KDE-Neon-Post-Install-Script/main/postinstall.sh`
 
 `sh postinstall.sh`
 
