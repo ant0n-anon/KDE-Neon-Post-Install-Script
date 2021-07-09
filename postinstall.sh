@@ -67,6 +67,10 @@ sudo expressvpn protocol lightway_udp
 sudo expressvpn connect
 sudo expressvpn autoconnect true
 
+# Allow KDE Connect ports to bypass firewall
+sudo ufw allow 1714:1764/tcp
+sudo ufw allow 1714:1764/udp
+
 # Enable Firewall
 sudo ufw enable
 
